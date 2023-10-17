@@ -1,0 +1,12 @@
+apiVersion: my.domain/v1alpha1
+kind: Fetcher
+metadata:
+  labels:
+    app.kubernetes.io/name: fetcher
+    app.kubernetes.io/instance: fetcher-sample
+    app.kubernetes.io/part-of: scget
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: scget
+  name: fetcher-sample
+spec:
+  # TODO(user): Add fields here
